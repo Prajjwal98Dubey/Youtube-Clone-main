@@ -11,7 +11,7 @@ const LivePage = () => {
   return (
     <div className='flex ml-16'>
         <div className=''>
-        <iframe width="850" height="450" src="https://www.youtube.com/embed/hQvTv4FiQrM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullscreen></iframe>
+        <iframe width="850" height="450" src="https://www.youtube.com/embed/hQvTv4FiQrM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
         <div>
             <LiveChat/>

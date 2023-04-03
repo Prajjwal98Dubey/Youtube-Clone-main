@@ -13,7 +13,7 @@ const SideBar=()=>{
         }
     return (
         <>
-          {videos.map(video=><SidebarCard detail={video}/>)}
+          {videos.map((video,index)=><SidebarCard key={index} detail={video}/>)}
         </>
     )
 }
